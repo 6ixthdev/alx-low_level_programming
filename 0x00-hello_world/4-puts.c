@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - Entry point of the program.
- * Prints the specified string using the puts function.
- * Returns: 0 to indicate successful execution.
+ * main - Entry point.
+ * main: Prints the specified string using the puts function.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
