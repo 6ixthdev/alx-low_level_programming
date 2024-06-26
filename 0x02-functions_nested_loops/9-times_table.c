@@ -9,6 +9,7 @@
 
 void times_table(void)
 {
+
 	int sum;
 	int i;
 	int a;
@@ -19,22 +20,22 @@ void times_table(void)
 		{
 			sum = i * a;
 
+			if (a != 0)
+			{
+				_putchar(',');
+				_putchar(' ');
+
+				if (sum < 10)
+				{
+					_putchar(' ');
+				}
+			}
+
 			if (sum >= 10)
 			{
 				_putchar('0' + (sum / 10));
 			}
 			_putchar('0' + (sum % 10));
-
-			if (a < 9)
-			{
-				_putchar(',');
-				_putchar(' ');
-			}
-
-			if (sum < 10)
-			{
-				_putchar(' ');
-			}
 		}
 		_putchar('\n');
 	}
