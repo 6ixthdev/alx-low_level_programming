@@ -21,7 +21,7 @@ void times_table(void)
 
 			if (sum >= 10)
 			{
-				_putchar('0' + (sum % 10));
+				_putchar('0' + (sum / 10));
 			}
 			_putchar('0' + (sum % 10));
 
@@ -36,6 +36,7 @@ void times_table(void)
 				_putchar(' ');
 			}
 		}
+		_putchar('\n');
 	}
 }
 
