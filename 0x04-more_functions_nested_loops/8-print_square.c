@@ -3,24 +3,24 @@
 /**
  * print_square - prints square lines
  * print_square: prints square lines
- * @n: receives the number of lines to be printed
+ * @size: receives the number of square to be printed
  *
  * Return: Always return 1 on success
  */
 
 
-void print_square(int n)
+void print_square(int size)
 {
 	int i;
 	int a;
 
-	if (n <= 0)
+	if (size <= 0)
 	{
 		_putchar('\n');
 		return;
 	}
 
-	for (i = 0; i < n; i++)
+	for (i = 0; i < size; i++)
 	{
 		for (a = 0; a < i; a++)
 		{
